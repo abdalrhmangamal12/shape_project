@@ -14,7 +14,7 @@ install:
 	mkdir install 
 	mv $(program_name) install/
 run:
-	./$(program_name)
+	@./install/$(program_name)
 
 clean:
 	rm -rf build

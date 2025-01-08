@@ -15,3 +15,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: build and run
       run: make
+    - name: test
+      run: x=`make run` && test $x -eq 16
