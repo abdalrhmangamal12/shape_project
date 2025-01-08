@@ -1,9 +1,6 @@
-### How to build
+## How to run
 ```bash
-g++ -S src/circle.cpp src/rectangle.cpp src/main.cpp 
-g++ *.s -o program
+make 
 ```
-### to run
-```bash
-./program
-```
+
+
